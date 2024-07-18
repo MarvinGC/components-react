@@ -1,5 +1,11 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+:root{
+  --font-family: 'Montserrat', sans-serif;
+  --color-main-dark-500: #0f1920;
+  --color-main-dark-250: #3c637f;
+  --color-main-dark-100: #6cc2ff;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 

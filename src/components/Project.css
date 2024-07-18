@@ -1,0 +1,61 @@
+.project {
+    position: relative;
+    background-color: white;
+    margin: 0 2rem;
+    border-radius: 10px;
+    min-width: 400px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.project::before {
+    content: "";
+    background-color: var(--color-yellow-dark-300);
+    opacity: 0.95;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease-in-out;
+}
+.project:hover::before {
+    height: 100%;
+}
+.project img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.project .project-description {
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10rem;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+.project:hover .project-description {
+    top: 0;
+    opacity: 1;
+}
+.link-project {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+@media screen and (max-width: 500px){
+    .project {
+        min-width: 300px;
+    }
+}
