@@ -2,11 +2,9 @@
 
 Proyecto donde voy agregando todos los componentes React que voy haciendo
 
-## Se necesita Fontawesom
+## Para correr el proyecto primero corre
 
-  npm install @fortawesome/free-brands-svg-icons
-  npm install @fortawesome/react-fontawesome
-
+npm install
 
 ## React + Vite
 

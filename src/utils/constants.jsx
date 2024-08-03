@@ -1,8 +1,8 @@
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faFacebook,faInstagram,faYoutube, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 // miniaturas 
-import startbootstrap from './assets/img/start-bootstrap-mini.png';
+import proyectoEjemplo from '../assets/img/proyecto-ejemplo.png';
 
 export const socialmedia = [
   {link: "https://www.facebook.com", icon: <FontAwesomeIcon className="icon" icon={faFacebook} />},
@@ -13,5 +13,5 @@ export const socialmedia = [
 ]
 
 export const projects = [
-  {image: startbootstrap, description: "Descripción", url: "#"},
+  {image: proyectoEjemplo, description: "Descripción", url: "#"}
 ]

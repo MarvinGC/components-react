@@ -1,0 +1,32 @@
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: var(--color-main-dark-500);
+  color: white;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 6vh 1rem 0 1rem;
+  z-index: 1000;
+  font-size: 16px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar li{
+  margin: 1rem 0;
+}
+.sidebar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--color-main-dark-100);
+}
+.sidebar a:hover {
+  color: var(--color-main-dark-250);
+  transition: ease;
+  transition-delay: 10ms;
+}
