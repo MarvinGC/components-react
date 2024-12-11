@@ -15,3 +15,10 @@ export const socialmedia = [
 export const projects = [
   {image: proyectoEjemplo, description: "Descripción", url: "#"}
 ]
+
+export const sidebarLinks = [
+  {link: "/", icon: <></>},
+  {link: "/form-general", icon: <></>},
+  {link: "/notas-archivadas", icon: <></>},
+  {link: "/papelera", icon: <></>},
+]

@@ -19,19 +19,19 @@ const Navbar = ({onToggleSideBar}) => {
               </IconButton>
             </div>
             <div className="navbar-brand">
-              <a href="#"><Typography>Notas MarlexGC</Typography></a>
+              <a href="/"><Typography>Notas MarlexGC</Typography></a>
             </div>
             <form onSubmit={handleSubmit}>
-            <div className="navbar-search-bar">
-              <IconButton type='submit' sx={{ color: 'var(--color-main-dark-100)' }} aria-label='search'>
-                <Search />
-              </IconButton>
-              <input name="search-input" 
-              className="search-bar-input" 
-              placeholder="Buscar..." 
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}/>
-            </div>
+              <div className="navbar-search-bar">
+                <IconButton type='submit' sx={{ color: 'var(--color-main-dark-100)' }} aria-label='search'>
+                  <Search />
+                </IconButton>
+                <input name="search-input" 
+                className="search-bar-input" 
+                placeholder="Buscar..." 
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}/>
+              </div>
             </form>
         </div>
         <div className="navbar-right-menu">

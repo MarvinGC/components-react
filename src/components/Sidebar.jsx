@@ -27,7 +27,7 @@ const Sidebar = () => {
           </Box>
           </a>
         </li>
-        <li><a href="#baul">
+        <li><a href="/form-general">
           <Box 
             height={20}
             width={200}
